@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 30px 30px;
+    z-index: 10;
+    background-color: black;
+}
+header h1{ 
+    padding: 10px 10px;
+    font-size: 50px;
+    color: white;
+    border-style: solid;
+    border-color: red;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: black;
+}
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav ul{
+    font-size: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav ul li{
+    list-style: none;
+    transition: all .2s ease-in-out;
+}
+header nav ul li:hover{
+    transform: scale(1.1)
+}
+header ul li a{
+    padding: 10px 10px;
+    background-color: white;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15 15px ;
+    text-decoration: none;
+    color:black;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 0.7s;
+}
+.zona1{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background: url(https://images4.alphacoders.com/223/223138.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+}
+header .abajo{
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+}
+.sc2{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50vh;
+}
+.sc2 h1{
+    font-size: 50px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.sc2 #in{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 95%;
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+.sc2 #in p{
+    padding-top: 35px;
+    font-size: 30px;
+    font-style:initial;
+}
+.sc3{
+    background-color: rgb(230, 189, 55);
+    width: 100%;
+    height: 100vh;
+    background: url(https://www.mountainbike.es/uploads/s1/32/07/36/5/5d8cbc4a0ee69407733493fb-mojo-hd5-la-bici-mas-canera-de-ibis.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
+.sc3 #pa{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20vh;
+}
+.sc3 #hh{
+    width: 20%;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    border-style: solid;
+    border-color: red;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-width: 5px;
+}
+.sc3 #pa2{
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.sc3 #pa2 div{
+    background-color: white;
+    width: 350px;
+    height: 400px;
+    margin: 30px 30px ;
+    border-style: solid;
+}
+#pr1{
+    box-shadow: rgba(221, 11, 11, 0.4) -5px 5px, rgba(189, 6, 6, 0.3) -10px 10px, rgba(143, 5, 5, 0.2) -15px 15px, rgba(105, 5, 5, 0.1) -20px 20px, rgba(85, 4, 4, 0.05) -25px 25px;
+
+}
+#pr1 h1{
+    margin-top: 20px;
+    width: 300;
+    height: 200;
+    background: url(https://marketplacer.imgix.net/iB/qwX-wxZ-Lr5XSxbYsiKzA6-E4.jpg?auto=format&fm=pjpg&fit=max&w=1600&h=1000&s=91b0e0da6d065506676e81914d1d6ba1);
+    background-position: center;
+    background-size: cover;
+    transition: all .2s ease-in-out;
+}
+#pr1 h1:hover{
+    transform: scale(1.1)
+}
+#pr2 h1{
+    margin-top: 20px;
+    width: 300;
+    height: 200;
+    background: url(https://cdn.shopify.com/s/files/1/0131/0713/4528/products/URANIUMMONTANASOLARFLUOlateral1HORIZONTAL_950x.png.jpg?v=1640893908);
+    background-position: center;
+    background-size: cover;
+    transition: all .2s ease-in-out;
+}
+#pr2 h1:hover{
+    transform: scale(1.1)
+}
+#pr3 h1{
+    margin-top: 20px;
+    width: 300;
+    height: 200;
+    background: url(https://homecenterco.scene7.com/is/image/SodimacCO/523713?fmt=jpg&fit=fit,1&wid=420&hei=420);
+    background-position: center;
+    background-size: cover;
+    transition: all .2s ease-in-out;
+
+}
+#pr3 h1:hover{
+    transform: scale(1.1)
+}
+#pr1 p{
+    font-family:monospace;
+    margin-top: 10px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+
+}
+#pr2 p{
+    font-family:monospace;
+    margin-top: 10px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+
+}
+#pr3 p{
+    font-family:monospace;
+    margin-top: 10px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+
+}
+#pr2{
+    box-shadow: rgba(221, 11, 11, 0.4) 0px 5px, rgba(189, 6, 6, 0.3) 0px 10px, rgba(143, 5, 5, 0.2) 0px 15px, rgba(105, 5, 5, 0.1) 0px 20px, rgba(85, 4, 4, 0.05) 0px 25px;
+}
+#pr3{
+    box-shadow: rgba(221, 11, 11, 0.4) 5px 5px, rgba(189, 6, 6, 0.3) 10px 10px, rgba(143, 5, 5, 0.2) 15px 15px, rgba(105, 5, 5, 0.1) 20px 20px, rgba(85, 4, 4, 0.05) 25px 25px;
+}
+.sc3 #pa2 #pr1 u{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 35px;
+
+}
+.pp{
+    width: 150px;
+    height: 50px;
+    text-decoration: none;
+    margin-top: 35px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    background-color:rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25%;
+    color: rgb(255, 255, 255);
+    transition: all .2s ease-in-out;
+}
+.pp:hover{
+    transform: scale(1.1)
+}
+
+.sc3 #pa2 #pr2 u{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 35px;
+}
+.sc3 #pa2 #pr3 u{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 35px;
+}
+.sec4{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 40vh;
+
+}
+.sec4 #se{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(0, 0, 0);
+}
+.sec4 #se h1{
+    font-size: 50px;
+    color: white;
+    margin-top: 10px;
+    border-width: 5px ;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.sec4 .dser div{
+    width: 99.6%;
+    background-color: rgb(0, 0, 0);
+    height: 25vh;
+    background: url(https://daltonluka.com/wp-content/uploads/2021/01/local-business-footer-example.png);
+    background-position: center center;
+    background-size: cover;
+}
